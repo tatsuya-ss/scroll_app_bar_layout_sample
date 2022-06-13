@@ -16,15 +16,12 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
-<!--            app:layout_scrollFlags="scroll|enterAlways"-->
-<!--            app:layout_scrollFlags="scroll|enterAlwaysCollapsed"-->
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways">
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:minHeight="40dp"
+                android:layout_height="100dp"
                 android:background="#FFEB3B"/>
         </LinearLayout>
 
